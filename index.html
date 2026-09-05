@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-h">
+            <div class="header-content">
+                <a href="index.html" onclick="clearCart()" class="brand"><img src="images/logo.png" alt="logo" style="width:110px; height:80px ;border-radius:50% ;padding:0px 0px 5px"/>MERAUDE</a>
+            </div><!-- end  header-content-->
+                <div class="ll">
+                    <ul id="link">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Sign Up</a></li>
+                    </ul>
+                    <div class="lin">
+                        <ul id="user_info">
+                            <li><a href="#" id="user"></a></li>
+                            <li class="shopping-cart">
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <span class="badge"></span>
+                                <div class="cart">
+                                    <div></div>
+                                    <a href="basket.html" class="vv">View All Products</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul id="logout">
+                            <li><a href="#">Log out</a></li>
+                        </ul>
+                    </div><!-- end lin -->
+                </div><!--end ll  -->
+            </div><!-- end  container-h-->
+    </header>   
+    <div class="sec1">
+        <div class="des">
+            <h2>Green Emerald – Spiritual Energy</h2>
+            <p>The green emerald is believed to symbolize love, harmony, wisdom, and emotional balance. In spiritual traditions, it is associated with the heart chakra and is thought to encourage compassion, inner peace, and positive energy.</p>
+        </div>
+        <div class="des1">
+            <video autoplay muted loop id="bg-video">
+                <source src="images/a.mp4" type="video/mp4">
+            </video> 
+        </div>
+    </div> 
+    <div class="sec2">
+        <div class="ss">
+            <select id="searchType">
+                <option value="name">Search by Name</option>
+                <option value="category">Search by Category</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </div>
+        <div class="products">
+        </div><!-- end products -->
+    </div><!-- end sec2 --> 
+
+            <div class="sec">
+                <div class="container">
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <p>
+                        © 2026 Made with 
+                        <i class="fas fa-heart heart-footer"></i>
+                        by Hala
+                    </p>
+                </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
